@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    background:linear-gradient(#5d127d, #9b5656) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width:100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box:after{
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transform: translate3d(0,0,0);
+}
+
+.box{
+    background: linear-gradient(rgb(75, 208, 228), rgb(232, 229, 229)
+    );
+    width: 25vh;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem black;
+
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    min-width: 20rem;
+    min-height: 35rem;
+}
+.headcon{
+    padding: 50px;
+  
+}
+.head{
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
+}
+
+
+.info{
+    background: linear-gradient(rgb(159, 159, 212), rgb(208, 183, 183)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    z-index: 4;
+
+}
+.location{
+    margin-top: -5.5rem;
+    text-align: center;
+}
+.temp{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+.inputData{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputField{
+    width: 50%;
+    margin: auto;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    outline: none;
+    font-size: 1.5rem;
+}
+.errorMsg{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+}
